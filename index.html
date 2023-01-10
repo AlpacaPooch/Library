@@ -6,9 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <script src="javascript.js" defer></script>
 </head>
 <body>
-
-    <script src="javascript.js"></script>
+<form action="alpacapooch.com/post" method="post" id="form">
+    <label for="book-title">Book Title</label>
+    <input type="text" name="book-title" id="book-title">
+    <label for="book-author">Book Author</label>
+    <input type="text" name="book-author" id="book-author">
+    <label for="book-pages">Number of Pages</label>
+    <input type="text" name="book-pages" id="book-pages">
+    <label for="book-read">Have you read the book?</label>
+    <input type="checkbox" name="book-read" id="book-read">
+    <button type="submit" id="button">Submit</button>
+</form>
 </body>
 </html>
